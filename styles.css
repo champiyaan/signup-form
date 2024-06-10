@@ -142,7 +142,7 @@ input:focus {
     flex-direction: column;
   }
 
-  input {
+  .input-box {
     width: 100%;
   }
 }
