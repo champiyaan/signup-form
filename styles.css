@@ -134,34 +134,15 @@ input:focus {
   box-shadow: 0 0 5px green;
 }
 
-@media only screen and (max-width: 768) {
+@media only screen and (max-width: 768px) {
   .container {
     flex-direction: column;
   }
-
-  .image-section img {
-    display: none;
-  }
-  .form-section {
-    width: 100%;
-  }
-  .info {
-    margin: 30px;
-  }
-
   .input-group {
     flex-direction: column;
-    margin-bottom: 10px;
   }
-  .input-box {
-    flex-direction: column;
-    margin-right: 0;
+
+  input {
     width: 100%;
-  }
-  .form {
-    flex-direction: column;
-  }
-  .label {
-    flex-direction: column;
   }
 }
